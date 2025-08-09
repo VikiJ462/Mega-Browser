@@ -1,0 +1,48 @@
+/* moderní, tmavší "neon" styl */
+.root {
+    -fx-font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    -fx-background-color: linear-gradient(to bottom right, #0f1724, #07112a);
+}
+
+/* top bar */
+.top-bar {
+    -fx-background-color: rgba(255,255,255,0.03);
+    -fx-border-color: transparent;
+    -fx-alignment: center-left;
+}
+
+/* buttons */
+.button {
+    -fx-background-radius: 8;
+    -fx-padding: 6 12 6 12;
+    -fx-border-color: transparent;
+    -fx-font-weight: 600;
+}
+.accent-button {
+    -fx-background-color: linear-gradient(#7c3aed, #06b6d4);
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.25), 6, 0.0, 0, 2);
+}
+.tab-button {
+    -fx-background-color: rgba(255,255,255,0.06);
+    -fx-text-fill: white;
+}
+
+/* address field */
+.text-field {
+    -fx-background-radius: 8;
+    -fx-background-color: rgba(255,255,255,0.03);
+    -fx-text-fill: #E6EEF8;
+    -fx-prompt-text-fill: rgba(230,238,248,0.5);
+}
+
+/* tab pane */
+.tab-pane {
+    -fx-tab-min-width: 120px;
+    -fx-tab-max-width: 350px;
+}
+
+/* WebView background tweak */
+.web-view {
+    -fx-background-color: transparent;
+}
