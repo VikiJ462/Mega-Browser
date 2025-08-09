@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
 
 public class Main extends Application {
 
-    private static final String HOME = "https://vikij462.github.io/neon-nova-karta/";
+    private static final String HOME = "https://web.tabliss.io/";
 
     private TabPane tabPane;
     private ListView<String> historyListView;
